@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    height: 100vh;
+    width: 100vw;
+}
+
+.card1 img {
+    width: 340px;
+    height: 330px;
+    border-radius: 18px;
+    padding: 10px;
+}
+
+.card1 {
+    background-color: aliceblue;
+    width: 27vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    gap: 5px;
+    border-radius: 18px;
+    justify-content: center;
+}
+
+
+.container2 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.card2 {
+    background-color: aliceblue;
+    width: 27%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-radius: 18px;
+}
+
+.imgcard2 img {
+    width: 348px;
+    height: 180px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.textCard2 {
+    align-items: center;
+    justify-content: center;
+    padding: 27px;
+}
+
+.plan {
+    width: 310px;
+    height: 50px;
+    padding: 10px;
+    background-color: #46cd774b;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.musicImg img {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.boxCard2Left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.boxCard2Right {
+    display: flex;
+    align-items: center;
+    padding-right: 7px;
+}
+
+.btnCard2 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+
+}
+
+.btnCard2 button {
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 18px;
+}
+
+.btnCard2 a {
+    color: #0f0c29;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.container3 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    height: 100vh;
+    width: 100vw;
+}
+
+.card3 {
+    width: 76%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
+    background: #c31432;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.card3 .leftBox img {
+    width: 500px;
+    height: 519px;
+}
+
+.rightBox {
+    color: aliceblue;
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+}
+
+#textPara {
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.bottonTextCard3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+}
